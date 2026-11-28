@@ -41,10 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles', 
+    #Thirs-party applications
+    'rest_framework',
 
     # CampusOS applications
     'accounts.apps.AccountsConfig',
     'organizations.apps.OrganizationsConfig',
+    'departments.apps.DepartmentsConfig',
 ]
 
 MIDDLEWARE = [
